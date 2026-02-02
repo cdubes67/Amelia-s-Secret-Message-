@@ -134,7 +134,7 @@
 
   <main class="card">
     
-    <!-- CAT WITH HEART -->
+<!-- CAT WITH HEART -->
 <svg class="art" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="fur" x1="0" x2="1">
@@ -154,27 +154,31 @@
            C282 92 250 78 250 50Z"
         fill="url(#heart)"/>
 
-  <!-- Cat head/body -->
-  <path d="M90 120 C90 70 140 40 190 60
-           C240 40 290 70 290 120
-           C290 180 240 210 190 210
-           C140 210 90 180 90 120Z"
-        fill="url(#fur)"/>
+  <!-- Cat head (slightly more oval, cat-like) -->
+  <ellipse cx="190" cy="150" rx="90" ry="70" fill="url(#fur)"/>
 
-  <!-- Cat ears (pointier) -->
-  <path d="M120 85 L100 40 L150 75 Z" fill="#f2a97b"/>
-  <path d="M260 85 L280 40 L230 75 Z" fill="#f2a97b"/>
+  <!-- Cat ears -->
+  <path d="M140 95 L115 40 L170 85 Z" fill="#f2a97b"/>
+  <path d="M240 95 L265 40 L210 85 Z" fill="#f2a97b"/>
 
   <!-- Eyes -->
-  <circle cx="160" cy="130" r="8"/>
-  <circle cx="220" cy="130" r="8"/>
+  <circle cx="160" cy="150" r="10" fill="#000"/>
+  <circle cx="220" cy="150" r="10" fill="#000"/>
 
-  <!-- Cat nose (triangle) -->
-  <path d="M188 145 L192 145 L190 150 Z" fill="#ff7aa2"/>
+  <!-- Nose -->
+  <path d="M188 165 L192 165 L190 170 Z" fill="#ff7aa2"/>
 
-  <!-- Cat mouth -->
-  <path d="M190 150 C185 155 185 160 190 160" stroke="#000" stroke-width="2" fill="none"/>
-  <path d="M190 150 C195 155 195 160 190 160" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Mouth -->
+  <path d="M190 170 C185 175 185 180 190 180"
+        stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M190 170 C195 175 195 180 190 180"
+        stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- Whiskers -->
+  <path d="M150 165 L110 160" stroke="#000" stroke-width="2"/>
+  <path d="M150 175 L110 180" stroke="#000" stroke-width="2"/>
+  <path d="M230 165 L270 160" stroke="#000" stroke-width="2"/>
+  <path d="M230 175 L270 180" stroke="#000" stroke-width="2"/>
 </svg>
 
     <h1>Amelia, will you be my valentine?</h1>
